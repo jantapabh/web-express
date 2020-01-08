@@ -22,6 +22,7 @@ app.get('/', getHomePage);
 // call ฟังค์ชัน getAboutPage เมื่อ client เข้าถึงหน้าเว็บ /about
 app.get('/about', getAboutPage);
  
+
 // start server ด้วย port 5555  
 var server = app.listen(5555, function() {
     console.log('Express is running on port 5555.');
