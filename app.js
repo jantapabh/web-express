@@ -15,6 +15,7 @@ function getAboutPage(req, res) {
  
 // เมื่อ client เข้าถึงหน้า Home Page ของเว็บไซต์ http://localhost:5555/
 // app.get(URL, getHomePage)
+
 // URL - คือ PATH ของเว็บไซต์
 // getHomePage คือ callback function ที่มี request และ response
 app.get('/', getHomePage);
